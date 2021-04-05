@@ -6,6 +6,7 @@
   int length,k;
   printf("enter the name: \n");
   scanf("%s", a);
+  // length of the string
   length = strlen(a);
   length = length - 1;
   k=0;
