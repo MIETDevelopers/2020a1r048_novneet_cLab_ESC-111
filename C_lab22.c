@@ -10,7 +10,7 @@ int fact(int n)
  int main()
  {
   int result, n;
-  printf("enter the value");
+  printf("enter the value of number");
   scanf("%d", &n);
   result = fact(n);
   printf("%d", result);
