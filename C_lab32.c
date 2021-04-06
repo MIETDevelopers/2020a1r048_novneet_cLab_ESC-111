@@ -7,8 +7,6 @@ int main()
   FILE *fp;
 
   fp = fopen(" D:\\new file.txt", "r");
-  printf("enter number you want to save in file\n");
-  scanf("%d",&num);
 
   fscanf(fp,"%d",&num);
   printf("value of number = %d",num);
